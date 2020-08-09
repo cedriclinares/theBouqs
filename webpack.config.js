@@ -40,6 +40,9 @@ const base = {
             },
         ],
     },
+    devServer: {
+        historyApiFallback: true,
+    },
     resolve: {
         extensions: ['.js', '.jsx'],
     },
